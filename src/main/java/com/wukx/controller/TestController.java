@@ -10,4 +10,8 @@ public class TestController {
     public String toString() {
         return "TestController{TEST_STRING = " + TEST_STRING + "}";
     }
+
+    public static void test() {
+    	System.out.println("hello world");
+    }
 }
